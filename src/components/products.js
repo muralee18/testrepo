@@ -1,0 +1,23 @@
+export let products=[
+    {
+    id:1,
+    name:"mobile",
+    price:30000,
+    rating:4,
+    instock:true
+    },
+    {
+    id:2,
+    name:"laptop",
+    price:70000,
+    rating:4,
+    instock:true
+    },
+    {
+    id:3,
+    name:"mouse",
+    price:300,
+    rating:3,
+    instock:false
+    }
+]
