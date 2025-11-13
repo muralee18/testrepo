@@ -8,13 +8,17 @@ import Rating from './components/Rating'
 import Userlist from './components/Userlist'
 import Productlist from './components/Productlist'
 import Student from './components/Student'
+import Login from './components/login'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <div style={{display:"flex",alignItems:'center',justifyContent:"center"}}>
     <Student/>
+    <Login/>
+    </div>
     </>
   )
 }
